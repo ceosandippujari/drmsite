@@ -5,6 +5,20 @@
       html {
         scroll-behavior: smooth;
       }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0f172a; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #3b82f6; 
+        border-radius: 5px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #2563eb; 
+      }
     </style>
 
     <meta charset="UTF-8" />
@@ -13,7 +27,30 @@
     <link rel="icon" type="image/png" href="/drmsite/favicon.png" />
     <link rel="sitemap" type="application/xml" href="/drmsite/sitemap.xml">
 
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Outfit', 'sans-serif'],
+            },
+            colors: {
+              neon: {
+                blue: '#3b82f6',
+                cyan: '#06b6d4',
+                purple: '#8b5cf6',
+              }
+            }
+          }
+        }
+      }
+    </script>
 
     <meta name="description" content="Grow your business visibility with Google Business Profile management, ranking, and optimizations.">
     <meta name="keywords" content="GBP management, Google Business Profile, local SEO, Google Maps ranking, review management">
@@ -25,8 +62,8 @@
     <meta property="og:image" content="https://drmservice.github.io/drmsite/favicon.png" />
     <meta property="og:url" content="https://drmservice.github.io/drmsite" />
     <meta name="twitter:card" content="summary_large_image" />
-    <script type="module" crossorigin src="/drmsite/assets/index-CYtoDiM3.js"></script>
-    <link rel="stylesheet" crossorigin href="/drmsite/assets/index-C6G_3qQV.css">
+    <script type="module" crossorigin src="/drmsite/assets/index-B6u2IpEM.js"></script>
+    <link rel="stylesheet" crossorigin href="/drmsite/assets/index-DbZYVJz2.css">
   </head>
 
   <body>
